@@ -1,8 +1,6 @@
 from tkinter import *
 import os
 import sys
-
-
 # from pathlib import path
 cwd = f"[{os.getcwd()}]"
 root = Tk()
@@ -41,7 +39,7 @@ def allfiles():
     "HTML": [".html5", ".html", ".htm", ".xhtml"],
 
     "IMAGES": [".jpeg", ".jpg", ".tiff", ".gif", ".bmp", ".png", ".bpg", ".svg",
-               ".heif", ".psd",".webp",".ico"],
+               ".heif", ".psd",".webp",".ico",".HEIC"],
 
     "VIDEOS": [".avi", ".flv", ".wmv", ".mov", ".mp4", ".webm", ".vob", ".mng",
                ".qt", ".mpg", ".3gp", ".m4v", ".mkv",".mpeg",".rm", ".swf"],
@@ -136,7 +134,7 @@ def onlyimages():
     from pathlib import Path
     DIRECTORIES = {
     "IMAGES": [".jpeg", ".jpg", ".tiff", ".gif", ".bmp", ".png", ".bpg", ".svg",
-               ".heif",".heic", ".psd",".webp",".raw",".ico"]}
+               ".heif",".heic", ".psd",".webp",".raw",".ico",".HEIC"]}
 
     EXCLUDE_FILE_NAME = "File Organizer.exe"
 
