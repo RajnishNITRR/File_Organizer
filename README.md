@@ -22,4 +22,4 @@ Open The App and Choose How you Want to organize Your Files, Eg Clicking on All 
 
 ![final.png](./final.png)
 
-#DownLoad: go to dist folder then download "file Organizer.exe" file
+# DownLoad: go to dist folder then download "file Organizer.exe" file
